@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env/
+.venv/
+*.sqlite
+
+# Ignore unwanted file types
+*.pdf
+*.xlsx
+*.html
+*.txt
+
+# Always track .gitignore itself
+!.gitignore
+
+# Always track your Jupyter Notebook
+!YDRT Riverfly Data Insights in River Nidd.ipynb
+
+# Always track requirements.txt if you have one
+!requirements.txt
