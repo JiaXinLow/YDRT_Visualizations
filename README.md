@@ -21,13 +21,20 @@ This project develops a structured analytical pipeline to:
 ---
 ## Research Questions
 The analysis is structured around four key ecological questions:
-### RQ1 – Monitoring Effort
+**RQ1 – Monitoring Effort**
+
 How does survey effort vary across sites and years, and to what extent are monitoring targets (6 surveys per site per year) achieved?
-### RQ2 – Spatial Variation
+
+**RQ2 – Spatial Variation**
+
 How can monitoring sites be ordered along the River Nidd (upstream → downstream), and how does species richness vary along this gradient?
-### RQ3 – Between-Site Community Structure
+
+**RQ3 – Between-Site Community Structure**
+
 How does riverfly community composition differ between monitoring sites across the catchment?
-### RQ4 – Within-Site Temporal Dynamics
+
+**RQ4 – Within-Site Temporal Dynamics**
+
 How do riverfly communities change over time within individual monitoring sites?
 
 ---
