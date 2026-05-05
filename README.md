@@ -1,7 +1,8 @@
 # Developing an Effort-Aware Visual Analytics Framework for Interpreting Citizen Science Riverfly Monitoring Data  
 ### A Case Study of the River Nidd (2015–2025)  
 **In collaboration with the Yorkshire Dales Rivers Trust (YDRT)**
-By Low Jia Xin
+
+*By Low Jia Xin*
 ---
 
 ## Overview
