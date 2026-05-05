@@ -1,7 +1,7 @@
 # Developing an Effort-Aware Visual Analytics Framework for Interpreting Citizen Science Riverfly Monitoring Data  
 ### A Case Study of the River Nidd (2015–2025)  
 **In collaboration with the Yorkshire Dales Rivers Trust (YDRT)**
-
+By Low Jia Xin
 ---
 
 ## Overview
@@ -13,14 +13,15 @@ The dataset consists of citizen science macroinvertebrate records collected by v
 ---
 ## Objectives
 This project develops a structured analytical pipeline to:
-- Standardise and clean volunteer-collected ecological monitoring data  
-- Account for uneven sampling effort across sites and years  
-- Visualise spatial and temporal patterns in riverfly communities  
-- Support ecological interpretation of river health trends  
-- Enable transparent and reproducible citizen science analysis  
+- Standardise and clean volunteer-collected ecological monitoring data.  
+- Account for uneven sampling effort across sites and years.  
+- Visualise spatial and temporal patterns in riverfly communities.  
+- Support ecological interpretation of river health trends.  
+- Enable transparent and reproducible citizen science analysis.
 ---
 ## Research Questions
 The analysis is structured around four key ecological questions:
+
 **RQ1 – Monitoring Effort**
 
 How does survey effort vary across sites and years, and to what extent are monitoring targets (6 surveys per site per year) achieved?
@@ -48,9 +49,11 @@ This workflow implements an **effort-aware ecological analytics framework**, con
 - Export of cleaned dataset for reproducibility
 ### 2. Effort Standardisation
 To ensure comparability across uneven sampling effort:
-\[
+
+$$
 \bar{x}_{s,y,t} = \frac{S_{s,y,t}}{N_{s,y}}
-\]
+$$
+
 Where:
 - \(S_{s,y,t}\): total abundance of taxon *t* at site *s* in year *y*
 - \(N_{s,y}\): number of surveys at site *s* in year *y*
@@ -75,19 +78,19 @@ The notebook includes multiple interactive visualisations:
 - Species abundance matrices
 - Effort-standardised abundance heatmaps
 - Spatial–temporal species distribution trends
+- Animated visualisations of ecological change over time
 #### Temporal Dynamics
 - Site-level time series of riverfly abundance
 - Relative abundance (community composition shifts)
-- Animated visualisations of ecological change over time
 ---
 ## Key Outputs
 The framework produces:
-- Cleaned and standardised ecological dataset (`riverfly_cleaned.xlsx`)
-- Interactive Plotly visualisations
-- Spatial flow mapping of monitoring sites
-- Effort-adjusted ecological indicators (mean abundance per survey)
-- Species richness and community composition trends
-- Site ranking based on monitoring consistency
+- Cleaned and standardised ecological dataset (`riverfly_cleaned.xlsx`).
+- Interactive Plotly visualisations.
+- Spatial flow mapping of monitoring sites.
+- Effort-adjusted ecological indicators (mean abundance per survey).
+- Species richness and community composition trends.
+- Site ranking based on monitoring consistency.
 ---
 ## Assumptions and Design Choices
 - Missing numerical values are treated as zero abundance.
